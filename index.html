@@ -1,151 +1,150 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Memory Game</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="app.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <script src="https://kit.fontawesome.com/b15cd79f79.js" crossorigin="anonymous"></script>
-    </head>
-    <body>
-        <div class="intro">
-            <div class="head">
-                <h1 class="head-hs" >Memory Game</h1>
-                <h3 class="head-hs">Lets Test Your Memory</h3>
-               <span class="play-btn"><i class="fa-brands fa-youtube fa-beat-fade" style="color: #a7fda5;"></i></span>
-            </div>
-        </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Memory Game</title>
+    <meta name="description" content />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/b15cd79f79.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-        <div class="game-mode">
-            <div class="header">
-                <h1>Memory Game</h1>
-                <div class="score"> Score: <span>0</span></div>
-                <div class="score"> Move: <span>0</span></div>
-                <button class="restartbtn" onclick="window.location.reload()">Restart</button>
-            </div>
-            <div class="cards">
-                <div class="card-flip">
-                   
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                           <img src="card/airplane.png"></div>
-                </div>
-                <div class="card-flip">
-                    
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                           <img src="card/bath-tub.png"></div>
-                       
-                </div>
-                <div class="card-flip">
-                   
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                            <img src="card/cocktail.png"></div>
-                    
-                </div>
-                <div class="card-flip">
-                    
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                            <img src="card/emoji.png"></div>
-                    
-                </div>
-                <div class="card-flip">
-                   
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                            <img src="card/hotel.png"></div>
-                   
-                </div>
-                <div class="card-flip">
-                    
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                            <img src="card/polaroid.png"></div>
-                 
-                </div>
-                <div class="card-flip">
-                 
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                           <img src="card/surf.png"></div>
-                   
-                </div>
-                <div class="card-flip">
-                    
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                          <img src="card/airplane.png"></div>
-                  
-                </div>
-                <div class="card-flip">
-                  
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                            <img src="card/bath-tub.png"></div>
-                   
-                </div>
-                <div class="card-flip">
-                    
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                            <img src="card/cocktail.png"></div>
-                 
-                </div>
-                <div class="card-flip">
-                 
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                           <img src="card/emoji.png"></div>
-                    
-                </div>
-                <div class="card-flip">
-                   
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                            <img src="card/hotel.png"></div>
-                  
-                </div>
-                <div class="card-flip">
-                   
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                           <img src="card/polaroid.png"></div>
-                  
-                </div>
-                <div class="card-flip">
-                    
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                        <img src="card/surf.png">
-                        </div>
-                
-                </div>
-                <div class="card-flip">
-                   
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                           <img src="card/star.png"></div>
-                  
-                </div>
-                <div class="card-flip">
-                 
-                        <div class="card-back"></div>
-                        <div class="card-front">
-                            <img src="card/star.png"></div>
-                    
-                </div>
-            </div>
-        </div>
+  <body>
+    <div class="intro">
+      <div class="head">
+        <h1 class="head-hs">Memory Game</h1>
+        <h3 class="head-hs">Lets Test Your Memory</h3>
+        <span class="play-btn"
+          ><i
+            class="fa-brands fa-youtube fa-beat-fade"
+            style="color: #a7fda5"
+          ></i
+        ></span>
+      </div>
+    </div>
 
-        <script src="app.js"></script>
-    </body>
+    <div class="game-mode">
+      <div class="header">
+        <h1>Memory Game</h1>
+        <div class="score">Score: <span>0</span></div>
+        <div class="score">Move: <span>0</span></div>
+        <button class="restartbtn">Restart</button>
+      </div>
+      <div class="cards">
+        <div class="card-flip" data-card="airplane">
+          <div class="card-back"></div>
+          <div class="card-front" >
+            <img src="card/airplane.png" />
+          </div>
+        </div>
+        <div class="card-flip"  data-card="bath-tub">
+          <div class="card-back"></div>
+          <div class="card-front" >
+            <img src="card/bath-tub.png" />
+          </div>
+        </div>
+        <div class="card-flip" data-card="cocktail">
+          <div class="card-back"></div>
+          <div class="card-front" >
+            <img src="card/cocktail.png" />
+          </div>
+        </div>
+        <div class="card-flip" data-card="emoji">
+          <div class="card-back"></div>
+          <div class="card-front" >
+            <img src="card/emoji.png" />
+          </div>
+        </div>
+        <div class="card-flip" data-card="hotel">
+          <div class="card-back"></div>
+          <div class="card-front" >
+            <img src="card/hotel.png" />
+          </div>
+        </div>
+        <div class="card-flip"  data-card="polaroid">
+          <div class="card-back"></div>
+          <div class="card-front">
+            <img src="card/polaroid.png" />
+          </div>
+        </div>
+        <div class="card-flip" data-card="surf">
+          <div class="card-back"></div>
+          <div class="card-front" >
+            <img src="card/surf.png" />
+          </div>
+        </div>
+        <div class="card-flip" data-card="airplane">
+            <div class="card-back"></div>
+            <div class="card-front" >
+              <img src="card/airplane.png" />
+            </div>
+          </div>
+          <div class="card-flip"  data-card="bath-tub">
+            <div class="card-back"></div>
+            <div class="card-front" >
+              <img src="card/bath-tub.png" />
+            </div>
+          </div>
+          <div class="card-flip" data-card="cocktail">
+            <div class="card-back"></div>
+            <div class="card-front" >
+              <img src="card/cocktail.png" />
+            </div>
+          </div>
+          <div class="card-flip" data-card="emoji">
+            <div class="card-back"></div>
+            <div class="card-front" >
+              <img src="card/emoji.png" />
+            </div>
+          </div>
+          <div class="card-flip" data-card="hotel">
+            <div class="card-back"></div>
+            <div class="card-front" >
+              <img src="card/hotel.png" />
+            </div>
+          </div>
+          <div class="card-flip"  data-card="polaroid">
+            <div class="card-back"></div>
+            <div class="card-front">
+              <img src="card/polaroid.png" />
+            </div>
+          </div>
+          <div class="card-flip" data-card="surf">
+            <div class="card-back"></div>
+            <div class="card-front" >
+              <img src="card/surf.png" />
+            </div>
+          </div>
+        <div class="card-flip" data-card="star">
+          <div class="card-back"></div>
+          <div class="card-front" >
+            <img src="card/star.png" />
+          </div>
+        </div>
+        <div class="card-flip" data-card="star">
+          <div class="card-back"></div>
+          <div class="card-front" >
+            <img src="card/star.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
 </html>
