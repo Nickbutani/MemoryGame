@@ -40,11 +40,17 @@
 
     <div class="game-mode">
       <div class="header">
-        <h1>Memory Game</h1>
-        <div class="score">Score: <span>0</span></div>
-        <div class="score">Move: <span>0</span></div>
-        <button class="restartbtn">Restart</button>
+        <div class="head">
+          <h1>Memory Game</h1>
+          <p class="score">HighScore: <span>0</span></p>
+        </div>
+        <div class = "board">
+          <div class="score">Score: <span>0</span></div>
+          <div class="score">Move: <span>0</span></div>
+          <button class="restartbtn">Restart</button>
+        </div>
       </div>
+      
       <div class="cards">
         <div class="card-flip" data-card="airplane">
           <div class="card-back"></div>
@@ -144,7 +150,13 @@
         </div>
       </div>
     </div>
-
+    <div class="end">
+      <div class="congrats">
+        <img src="back-image/stars-filled.png">
+        <h1 class="end-h1">You did it!!</h1>
+        <button class="endbtn" onclick="window.location.reload()">Home</button>
+      </div>
+    </div>
     <script src="app.js"></script>
   </body>
 </html>
